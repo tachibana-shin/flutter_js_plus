@@ -14,6 +14,8 @@ dependencies:
   ffi: ^2.0.0
   http: ^1.0.0
   sync_http: ^0.3.0
+  web: ^1.1.1
+  js: ^0.7.2
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -35,6 +37,8 @@ flutter:
       #   default_package: flutter_js_linux_windows
       windows:
         pluginClass: FlutterJsPlugin
+      web:
+        default_package: flutter_js
 
   assets:
     - assets/js/

@@ -1,0 +1,1 @@
+export 'flutter_js.dart' show getJavascriptRuntime;
